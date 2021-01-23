@@ -1,0 +1,20 @@
+.Close {
+    position: absolute;
+    left:50%;
+
+}
+
+.Previous {
+    display: inline-block;
+    margin-left: 40px;
+    position: absolute;
+    top: 50%;
+}
+
+.Next {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left:90%;
+
+}
