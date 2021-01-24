@@ -1,0 +1,9 @@
+.Image{
+    margin: 3px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.Div {
+    display: inline-block;
+
+}

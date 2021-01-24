@@ -3,9 +3,9 @@ import './Thumbnail.css';
 
 const thumbnail = (props) => {
     return (
-        <div>
-            working
-            <img src={props.src} onClick={props.clicked} />
+        <div className='Div' >
+            
+            <img className='Image' src={props.src} onClick={props.clicked} alt={props.alt} />
         </div>
         
     )
