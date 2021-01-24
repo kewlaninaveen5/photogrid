@@ -4,11 +4,11 @@ import axios from 'axios';
 
 const fullView = (props) => {
 
-    const url2000 = '/2000x2000?text=';
+    const url2000 = 'http://via.placeholder.com/2000x2000?text=';
 
     const download = (number) => {
         axios({
-            url:`/3900x3900?text=${number}`,
+            url:`http://via.placeholder.com/3900x3900?text=${number}`,
             method: 'GET',
             responseType:'blob'
         })

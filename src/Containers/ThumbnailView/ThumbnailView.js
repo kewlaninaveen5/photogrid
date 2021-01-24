@@ -45,7 +45,7 @@ class ThumbnailView extends Component {
     
 
     render () {
-        const url200 = '/200x200?text=';
+        const url200 = 'http://via.placeholder.com/200x200?text=';
         // const fetchedImageURLs = [];
 
         
